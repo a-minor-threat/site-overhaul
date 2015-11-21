@@ -10,7 +10,7 @@
     $subject = @trim(stripslashes($_POST['subject'])); 
     $message = @trim(stripslashes($_POST['message'])); 
 
-    $email_from = $email;
+    $email_from = 'dennis.k.shah@gmail.com';
     $email_to = 'dennis.k.shah@gmail.com';
 
     $body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message;
