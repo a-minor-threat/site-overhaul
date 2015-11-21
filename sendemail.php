@@ -9,7 +9,10 @@
     $email = @trim(stripslashes($_POST['email'])); 
     $subject = @trim(stripslashes($_POST['subject'])); 
     $message = @trim(stripslashes($_POST['message'])); 
-
+    if(empty($name) || empty($email))
+    {
+        echo "Name and Email are mandatory!";
+    }
     $email_from = 'dennis.k.shah@gmail.com';
     $email_to = 'dennis.k.shah@gmail.com';
 
