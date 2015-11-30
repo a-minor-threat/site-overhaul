@@ -248,7 +248,8 @@ body > section {
   background-color: #f39c12;
 }
 .emerald {
-  background-color: #2ecc71;
+   background-color: #2ecc71;
+  /* background-color: #85B728; */
 }
 .nephritis {
   background-color: #27ae60;
@@ -266,7 +267,8 @@ body > section {
   background-color: #2980b9;
 }
 .alizarin {
-  background-color: #e74c3c;
+ /* background-color: #e74c3c; */
+ background-color: #df7a29;
 }
 .pomegranate {
   background-color: #c0392b;
