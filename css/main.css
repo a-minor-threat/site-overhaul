@@ -286,7 +286,8 @@ body > section {
   background-color: #bdc3c7;
 }
 .wet-asphalt {
-  background-color: #34495e;
+/*  background-color: #34495e; */
+    background-color: #FAAA1A;
 }
 .wet-asphalt a:not(.btn) {
   color: #bdc3c7;
@@ -295,7 +296,8 @@ body > section {
   color: #d9534f;
 }
 .midnight-blue {
-  background-color: #2c3e50;
+/* background-color: #2c3e50;*/
+  background-color: #FAAA1A;
 }
 .concrete {
   background-color: #95a5a6;
@@ -727,7 +729,8 @@ ul.tag-cloud li {
   padding-top: 7px;
   padding-bottom: 7px;
   border-radius: 4px;
-  color: #bdc3c7;
+/*  color: #bdc3c7; */
+  color: white;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
@@ -955,10 +958,13 @@ ul.rss li::before {
 #footer {
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #bdc3c7;
+/*  color: #bdc3c7; */
+  color: white;
+
 }
 #footer a {
-  color: #bdc3c7;
+/*  color: #bdc3c7; */
+  color: white;
 }
 #footer a:hover {
   color: #d9534f;
