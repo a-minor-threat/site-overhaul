@@ -248,7 +248,8 @@ body > section {
   background-color: #f39c12;
 }
 .emerald {
-   background-color: #2ecc71;
+   background-color: #FAAA1A;
+  /* background-color: #2ecc71; */
   /* background-color: #85B728; */
 }
 .nephritis {
@@ -268,7 +269,9 @@ body > section {
 }
 .alizarin {
  /* background-color: #e74c3c; */
- background-color: #df7a29;
+ /* background-color: #df7a29; */
+    background-color: #2ecc71;
+
 }
 .pomegranate {
   background-color: #c0392b;
@@ -287,17 +290,20 @@ body > section {
 }
 .wet-asphalt {
 /*  background-color: #34495e; */
-    background-color: #FAAA1A;
+/*  background-color: #FAAA1A; */
+    background-color: #EEF0ED;
 }
 .wet-asphalt a:not(.btn) {
-  color: #bdc3c7;
+  color: #bdc3c7; 
+
 }
 .wet-asphalt a:not(.btn):hover {
   color: #d9534f;
 }
 .midnight-blue {
 /* background-color: #2c3e50;*/
-  background-color: #FAAA1A;
+/* background-color: #FAAA1A; */
+   background-color: #EEF0ED;
 }
 .concrete {
   background-color: #95a5a6;
@@ -729,16 +735,16 @@ ul.tag-cloud li {
   padding-top: 7px;
   padding-bottom: 7px;
   border-radius: 4px;
-/*  color: #bdc3c7; */
-  color: white;
+ /* color: #bdc3c7; */
+  color: black;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:focus {}
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #2c3e50;
+  background-color: #2c3e50; 
 }
 .navbar-inverse .navbar-nav .dropdown-menu {
   background-color: #2c3e50;
@@ -959,12 +965,12 @@ ul.rss li::before {
   padding-top: 30px;
   padding-bottom: 30px;
 /*  color: #bdc3c7; */
-  color: white;
+  color: black;
 
 }
 #footer a {
 /*  color: #bdc3c7; */
-  color: white;
+  color: black;
 }
 #footer a:hover {
   color: #d9534f;
@@ -1042,7 +1048,8 @@ ul.pagination > li > a {
 ul.pagination > li.active > a,
 ul.pagination > li:hover > a {
   background-color: #34495e;
-  color: #fff;
+  color: #fff;  
+
 }
 textarea#message {
   padding: 10px 15px;
