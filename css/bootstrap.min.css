@@ -3871,7 +3871,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-inverse .navbar-nav>.open>a,
 .navbar-inverse .navbar-nav>.open>a:hover,
 .navbar-inverse .navbar-nav>.open>a:focus {
-    color: #fff;
+ /*   color: #fff; */
+    color: #FAAA1A;
     background-color: #080808
 }
 .navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
