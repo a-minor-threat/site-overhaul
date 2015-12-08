@@ -306,8 +306,10 @@ img {
 }
 .img-thumbnail {
     display: inline-block;
-    height: auto;
-    max-width: 100%;
+ /*   height: auto;
+    max-width: 100%; */
+    height: 300px;
+    width: 300px;
     padding: 4px;
     line-height: 1.428571429;
     background-color: #fff;
