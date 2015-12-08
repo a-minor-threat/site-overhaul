@@ -757,7 +757,8 @@ ul.tag-cloud li {
 }
 .navbar-inverse .navbar-nav .dropdown-menu > li > a {
   padding: 8px 15px;
-  color: #bdc3c7;
+ /* color: #bdc3c7; */
+  color: #FAAA1A;
 }
 .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
