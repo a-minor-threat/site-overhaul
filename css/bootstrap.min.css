@@ -3896,7 +3896,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
         border-color: #080808
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-        color: #999
+/*        color: #999 */
+        color: #FAAA1A;
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover,
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
