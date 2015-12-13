@@ -347,10 +347,19 @@ body > section {
   background-color: rgba(255, 255, 255, 0.3);
 }
 #main-slider .carousel .boxed {
-  padding: 10px 15px;
-  background-color: rgba(0, 0, 0, 0.8);
-  display: inline-block;
+  padding: 5px 15px;
+  background-color: rgba(0, 0, 0, 0.8); 
+/*  display: inline-block; */
+  text-align: center;
 }
+
+.boxed-two {
+/*  padding: 10px 15px; */
+  width: 50%;
+  display: inline-block;
+/*  background-color: rgba(0, 0, 0, 0.8); */
+}
+
 #main-slider .carousel .item {
   background-position: 50%;
   background-repeat: no-repeat;
@@ -635,7 +644,7 @@ body > section {
 .center {
   text-align: center;
 }
-#meet-the-team .designation {
+.meet-the-team .designation {
   margin-top: 5px;
   display: block;
   font-size: 13px;
