@@ -270,7 +270,8 @@ body > section {
 .alizarin {
  /* background-color: #e74c3c; */
  /* background-color: #df7a29; */
-    background-color: #2ecc71;
+ /* background-color: #2ecc71; */
+  background-color: #0F9D58;
 
 }
 .pomegranate {
@@ -351,6 +352,7 @@ body > section {
   background-color: rgba(0, 0, 0, 0.8); 
 /*  display: inline-block; */
   text-align: center;
+  margin: auto;
 }
 
 .boxed-two {
@@ -1111,4 +1113,23 @@ ul.faq li > div h3 {
   text-align: center;
   margin-top: 150px;
   margin-bottom: 150px;
+}
+#copyright {
+  text-align: center;
+}
+#who-we-are {
+  text-align: center;
+ }
+a.news:hover,
+a.news:focus {
+  text-decoration: none;
+  outline: none;
+  line-height: normal;
+}
+.img-board {
+  height: 240px;
+  width: 240px;
+}
+.board-title {
+  padding-top: 1%;
 }
