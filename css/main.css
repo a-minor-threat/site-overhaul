@@ -32,6 +32,7 @@ body {
   background: #f5f5f5;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  text-rendering: ;
 }
 h1,
 h2,
@@ -348,7 +349,7 @@ body > section {
   background-color: rgba(255, 255, 255, 0.3);
 }
 #main-slider .carousel .boxed {
-  padding: 5px 15px;
+  padding: 10px 15px;
   background-color: rgba(0, 0, 0, 0.8); 
 /*  display: inline-block; */
   text-align: center;
@@ -1132,4 +1133,14 @@ a.news:focus {
 }
 .board-title {
   padding-top: 1%;
+}
+.shrink {
+  max-width: 600px;
+}
+.app-page-text {
+  text-align: left;
+}
+
+.app-segments {
+  text-align: left;
 }
