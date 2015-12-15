@@ -22,7 +22,7 @@ jQuery(function($) {
 
 
 	//"open all" and "close all" buttons on careers page
-        $('.fs-closeall').click(function(e){
+        $('.fs-openall').click(function(e){
           $('.panel-collapse.in')
             .collapse('hide');
             e.preventDefault();
@@ -32,7 +32,7 @@ jQuery(function($) {
             .collapse('show');
             e.preventDefault();
         });
-        $('.fr-closeall').click(function(e){
+        $('.fr-openall').click(function(e){
           $('.panel-collapse.in')
             .collapse('hide');
             e.preventDefault();
@@ -42,7 +42,7 @@ jQuery(function($) {
             .collapse('show');
             e.preventDefault();
         });
-        $('.mf-closeall').click(function(e){
+        $('.mf-openall').click(function(e){
           $('.panel-collapse.in')
             .collapse('hide');
             e.preventDefault();
