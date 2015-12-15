@@ -110,11 +110,11 @@
         <hr>
         <div class="row">
             <div class="col-sm-4">
-                <h4>Junior Full Stack Developer</h4>
+<a href="#" class="fs-openall"><h4>Junior Full Stack Developer</h4></a>
                 <p>
                     We're looking for a sharp developer to join our technical arm. This person will assist in in maintaining and improving the the Addis Ideas mobile application.
                 </p>
-                  <a href="#" class="btn btn-default openall">open all</a> <a href="#" class="btn btn-default closeall">close all</a>
+      <!--      <a href="#" class="fs-closeall">close all</a> -->
                 <div class="panel-group" id="accordion1">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -180,11 +180,11 @@
             </div>
             <!--/.col-sm-4-->
             <div class="col-sm-4">
-                <h4>Field Research Director</h4>
+                <a href="#" class="fr-openall"><h4>Field Research Director</h4></a>
                 <p>
                 We're looking for someone to lead our research and development arm. The Field Research Director will assist in conducting focus group research on our application's various iterations. This person will also be responsible for external outreach efforts in African communities. Finally, this person will be responsible for sourcing, recruiting, and managing a team of field researchers.
                 </p>
-                  <a href="#" class="btn btn-default fr-openall">open all</a> <a href="#" class="btn btn-default fr-closeall">close all</a>                
+                   <!-- <a href="#" class="btn btn-default fr-closeall">close all</a>  -->               
                 <div class="panel-group" id="accordion2">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -258,11 +258,11 @@
             </div>
             <!--/.col-sm-4-->
             <div class="col-sm-4">
-                <h4>Marketing Fellows</h4>
+                <a href="#" class="mf-openall"><h4>Marketing Fellows</h4></a>
                 <p>
                     We're looking for creative people to join our marketing arm. Marketing Fellows will assist in the development of our social media campaigns, while maintaining the company's vision and brand. Fellows are also an integral part of our fundraising and outreach efforts. Undergraduate and graduate students in all majors are welcome to apply, though MBA students are preferred.                    
                 </p>
-                  <a href="#" class="btn btn-default mf-openall">open all</a> <a href="#" class="btn btn-default mf-closeall">close all</a>                                
+                    <!-- <a href="#" class="btn btn-default mf-closeall">close all</a> -->                                
                 <div class="panel-group" id="accordion3">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -346,38 +346,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    <script>
-        $('.closeall').click(function(e){
-          $('.panel-collapse.in')
-            .collapse('hide');
-            e.preventDefault();
-        });
-        $('.openall').click(function(e){
-          $('.fs-collapse:not(".in")')
-            .collapse('show');
-            e.preventDefault();
-        });
-        $('.fr-closeall').click(function(e){
-          $('.panel-collapse.in')
-            .collapse('hide');
-            e.preventDefault();
-        });
-        $('.fr-openall').click(function(e){
-          $('.fr-collapse:not(".in")')
-            .collapse('show');
-            e.preventDefault();
-        });
-        $('.mf-closeall').click(function(e){
-          $('.panel-collapse.in')
-            .collapse('hide');
-            e.preventDefault();
-        });
-        $('.mf-openall').click(function(e){
-          $('.mf-collapse:not(".in")')
-            .collapse('show');
-            e.preventDefault();
-        });                          
-</script>
+    
 </body>
 
 </html>
