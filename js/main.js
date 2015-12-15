@@ -23,7 +23,7 @@ jQuery(function($) {
 
 	//"open all" and "close all" buttons on careers page
         $('.fs-openall').click(function(e){
-          $('.panel-collapse.in')
+          $('.fs-panel-collapse.in')
             .collapse('hide');
             e.preventDefault();
         });
@@ -33,7 +33,7 @@ jQuery(function($) {
             e.preventDefault();
         });
         $('.fr-openall').click(function(e){
-          $('.panel-collapse.in')
+          $('.fr-panel-collapse.in')
             .collapse('hide');
             e.preventDefault();
         });
@@ -43,7 +43,7 @@ jQuery(function($) {
             e.preventDefault();
         });
         $('.mf-openall').click(function(e){
-          $('.panel-collapse.in')
+          $('.mf-panel-collapse.in')
             .collapse('hide');
             e.preventDefault();
         });
