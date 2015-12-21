@@ -1144,3 +1144,19 @@ a.news:focus {
 .app-segments {
   text-align: left;
 }
+.learn-more {
+  padding-top: 2%;
+  margin-top: 2%;
+}
+.rounded {
+  border-radius: 10px;
+}
+#contact-page {
+  padding-bottom: 250px;
+}
+#career {
+  padding-bottom: 10%;
+}
+#error{
+  padding-bottom: 18%;
+}   
