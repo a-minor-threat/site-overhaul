@@ -1140,7 +1140,12 @@ a.news:focus {
 .app-page-text {
   text-align: left;
 }
-
+.text-padding{
+  padding: 10%;
+}
+.crowdsource-padding {
+  padding-bottom: 189px;
+}
 .app-segments {
   text-align: left;
 }
