@@ -1164,4 +1164,9 @@ a.news:focus {
 }
 #error{
   padding-bottom: 18%;
+}
+.img-header{
+  height: 150px;
+  width: auto;
+  background-image: url(../images/slider/bg2-2.jpg);
 }   
